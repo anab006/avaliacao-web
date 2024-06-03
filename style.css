@@ -1,0 +1,41 @@
+.container{
+    border: 1px black solid;
+    height: 100vh;}
+
+#nome{
+    text-align: center;}
+
+#item1{
+    border: 1px black solid;
+    height: 20%;
+    display: flex;}
+
+#pt1{
+    border: 1px black solid;
+    width: 33.3%;}
+
+#pt2{
+    border: 1px black solid;
+    width: 33.3%;}
+
+ #pt3{
+    border: 1px black solid;
+    width: 33.3%;}
+
+
+#item2{
+    border: 1px black solid;
+    height: 20%;
+    display: flex;}
+    
+#pt4{
+    border: 1px black solid;
+    width: 33.3%;}
+    
+#pt5{
+    border: 1px black solid;
+    width: 33.3%;}
+    
+#pt6{
+    border: 1px black solid;
+    width: 33.3%;}
