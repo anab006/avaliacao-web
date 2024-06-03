@@ -42,3 +42,11 @@ function retangulo(){
     var resultado = numero10 * numero11
     var teste = document.getElementById("resultadoretangulo");
 }
+
+function salario () {
+    var salario = parseInt(document.getElementById("num12")).value;
+    var reajuste = parseInt(document.getElementById("num13")).value;
+    var resultadoReajuste = salario * (reajuste/100)+salario
+    var teste = document.getElementById("resultadoReajuste");
+    teste.innerHTML=resultadoReajuste
+}
