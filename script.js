@@ -50,3 +50,13 @@ function reajuste () {
     var teste = document.getElementById("resultadoReajusteA");
     teste.innerHTML=resultadoReajuste
 }
+
+function numeroMaior(){
+    var numero17 = parseInt(document.getElementById("num17").value);
+    if(numero17<10){
+        alert("o numero digitado é menor que 10")
+    }
+    else{
+        alert("o numero digitado é maior que 10")
+    }
+}
