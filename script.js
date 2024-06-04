@@ -43,10 +43,10 @@ function retangulo(){
     var teste = document.getElementById("resultadoretangulo");
 }
 
-function salario () {
-    var salario = parseInt(document.getElementById("num12")).value;
-    var reajuste = parseInt(document.getElementById("num13")).value;
-    var resultadoReajuste = salario * (reajuste/100)+salario
-    var teste = document.getElementById("resultadoReajuste");
+function reajuste () {
+    var num12 = parseInt(document.getElementById("numteste1").value);
+    var num13 = parseInt(document.getElementById("numteste2").value);
+    var resultadoReajuste = num12 * (num13/100)+num12
+    var teste = document.getElementById("resultadoReajusteA");
     teste.innerHTML=resultadoReajuste
 }
